@@ -161,7 +161,7 @@ main {
     }
 
     .menu .menu-item .menu-image img {
-        max-height: 192;
+        max-height: 192px;
         border-radius: 24px;
     }
 
