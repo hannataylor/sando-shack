@@ -1,6 +1,3 @@
-main {
-}
-
 .section {
     height: auto;
     width: 100%;
@@ -68,9 +65,9 @@ main {
 }
 
 #menu .menu .menu-item {
-    justify-content: space-between;
-    align-items: center;
-    width: 75%;
+    align-items: flex-start;
+    width: 60%;
+    height: 100%;
     border-radius: 24px;
     padding: 2em;
     margin: 1em 0;
@@ -88,9 +85,13 @@ main {
 #menu .menu .menu-item .menu-description {
     width: 100%;
     height: 100%;
-    padding: 2em;
+    padding: 0 2em;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+#menu .menu .menu-item .menu-description p {
+    margin: 8px;
 }
 
 #menu .menu .menu-item .item-name {
@@ -119,14 +120,15 @@ main {
 }
 
 #hours address iframe {
-    width: 75%;
-    height: 450px;
+    width: 80%;
+    height: 300px;
+    border-radius: 8px;
 }
 
 /* About */
 #about .about-content {
     border-radius: 24px;
-    width: 75%;
+    width: 60%;
     padding: 2em;
 }
 
@@ -153,29 +155,39 @@ main {
     }
 
     #menu .menu .menu-item {
-        flex-direction: column;
+        align-items: flex-start;
         padding: 1.5em;
+        width: 80%;
     }
 
     #menu .menu .menu-item .menu-image img {
-        max-height: 192px;
-        max-width: 192px;
-        border-radius: 24px;
+        height: 100%;
+        width: 100%;
     }
 
     #menu .menu .menu-item .menu-description {
         text-align: center;
-        align-items: center;
+        padding: 0 1em;
     }
 
     #hours address iframe {
-        width: 75%;
         height: 300px;
-        border-radius: 8px;
     }    
 
     #about .about-content {
         padding: 1em;
     }
 
+}
+
+@media screen and (max-width: 699px) {
+    #menu .menu .menu-item {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    #menu .menu .menu-item .menu-description {
+        align-items: center;
+    }
 }
