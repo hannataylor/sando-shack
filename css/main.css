@@ -157,6 +157,7 @@ main {
 
     .menu .menu-item {
         flex-direction: column;
+        padding: 1.5em;
     }
 
     .menu .menu-item .menu-image img {
