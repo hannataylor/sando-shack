@@ -78,6 +78,9 @@ background:#333;
 }
 
 /* Mobile */
+.navbar-top {
+    background: #BA1B1D;
+}
 .navbar-bottom {
     background: #333;
 }

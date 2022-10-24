@@ -139,13 +139,9 @@
 
 
 
-/* Mobile and Tablet */
-
+/* Responsive */
+/* Tablet */
 @media screen and (max-width: 1023px) {
-    .section {
-        padding: 1em;
-    }
-
     .hero .hero-content h1 {
         font-size: 3em;
     }
@@ -180,6 +176,7 @@
 
 }
 
+/* Mobile */
 @media screen and (max-width: 699px) {
     #menu .menu .menu-item {
         flex-direction: column;
@@ -190,4 +187,32 @@
     #menu .menu .menu-item .menu-description {
         align-items: center;
     }
+}
+
+/* Extra Small Screens */
+@media screen and (max-width: 374px) {
+    .section-title {
+        font-size: 2em;
+    }
+
+    .hero .hero-content h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero .hero-content p {
+        font-size: 1.5em;
+    }  
+
+    #menu .menu .menu-item .menu-description .item-name { 
+        font-size: 1.25em;
+    }
+
+    #menu button {
+        font-size: 1em;
+    }
+
+    #about .about-content {
+        width: 100%;
+    }
+
 }

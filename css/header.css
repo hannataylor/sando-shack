@@ -62,39 +62,45 @@ main {
 @media screen and (max-width: 1023px) {
     /* Sticky Header */
     header {
-        height: 120px;
+        height: 130px;
         width: 100%;
     }
 
     main {
-        margin-top: 120px;
+        margin-top: 130px;
     }
     /* End Sticky Header */
 
     .navbar-top {
         justify-content: space-between;
         width: 100%;
+        height: 100%;
     }
+
     .navbar-top .navbar-left {
-        flex-basis: 25%;
         margin-left: 0;
+        align-items: center;
     }
+
     .navbar-top .navbar-right {
-        flex-basis: 75%;
+        flex-basis: 50%;
         justify-content: flex-end;
         align-items: center;
     }
-    .navbar-left img {
-        height: 32px;
+
+    .navbar-top .navbar-left  img {
+        height: 40px;
         justify-content: flex-start;
         margin: 1em;
 
     }
-    .navbar-right .navbar-button {
-        font-size: 1em;
+
+    .navbar-top .navbar-right .navbar-button {
+        font-size: 1.25em;
         padding: 8px 16px;
         margin-right: 1em;
     }
+
     .navbar-bottom {
         width: 100%;
         justify-content: space-evenly;
@@ -102,7 +108,25 @@ main {
     }
 
     .navbar-links .navbar-item {
-        font-size: 1em;
+        font-size: 1.2em;
         padding: 0 2em;
+    }
+}
+
+/* Extra Small Screens */
+@media screen and (max-width: 374px) {
+    .navbar-top .navbar-left img {
+        height: 32px;
+        margin: 8px;
+    }
+
+    .navbar-top .navbar-right .navbar-button {
+        padding: 8px;
+        font-size: .9em;
+    }
+
+    .navbar-links .navbar-item {
+        padding: 0 1em;
+        font-size: 1em;
     }
 }
