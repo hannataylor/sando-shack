@@ -75,6 +75,7 @@ header {
     .navbar-bottom {
         width: 100%;
         justify-content: space-evenly;
+        padding: 1em 0;
     }
 
     .navbar-links .navbar-item {
