@@ -1,8 +1,20 @@
 /* Header  */
+
+/* Sticky header */
 header {
-    height: 20vh;
+    position: fixed;
+    height: 80px;
+    width: 100%;
     z-index: 2;
+    top: 0;
+    z-index: 5;
 }
+
+main {
+    margin-top: 80px; 
+}
+
+/* End Stick Header */
 
 .navbar {
     width: 100%;
@@ -12,6 +24,7 @@ header {
 
 .navbar-left {
     flex-basis: 25%;
+    margin-left: 1em;
 }
 
 .navbar-center {
@@ -35,20 +48,29 @@ header {
 }
 
 .navbar .navbar-center img {
-    height: 10vh;
+    height: 40px;
 }
 
 .navbar-right .navbar-button {
-    padding: 16px 24px;
+    padding: 8px 16px;
     font-size: 1.25em;
     font-weight: 700;
+    margin-right: 2em;
 }
 
 /* Mobile and Tablet */
 @media screen and (max-width: 1023px) {
+    /* Sticky Header */
     header {
-        height: auto;
+        height: 120px;
+        width: 100%;
     }
+
+    main {
+        margin-top: 120px;
+    }
+    /* End Sticky Header */
+
     .navbar-top {
         justify-content: space-between;
         width: 100%;
@@ -62,7 +84,7 @@ header {
         align-items: center;
     }
     .navbar-left img {
-        height: 2em;
+        height: 32px;
         justify-content: flex-start;
         margin: 1em;
 
@@ -70,7 +92,7 @@ header {
     .navbar-right .navbar-button {
         font-size: 1em;
         padding: 8px 16px;
-        margin: 1em;
+        margin-right: 2em;
     }
     .navbar-bottom {
         width: 100%;
