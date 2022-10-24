@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap');
 html {
     height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -28,6 +33,10 @@ button {
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
 }
 
 /* Responsiveness */

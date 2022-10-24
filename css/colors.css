@@ -50,11 +50,15 @@ body {
 }
 
 /* About */
-#about {
+#about .about-content {
     background: #BA1B1D;
     color: white;
 }
 
+/* Hours  */
+#hours {
+    background: white;
+}
 /* Footer */
 
 footer .social {
