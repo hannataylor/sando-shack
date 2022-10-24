@@ -1,0 +1,86 @@
+body {
+    background: #f3f3f3;
+    color: black;
+}
+
+/* Header */
+
+.navbar {
+    background:#BA1B1D;
+    color: white;
+}
+
+.navbar .navbar-left a {
+    color: white;
+}
+
+.navbar .navbar-left a:hover {
+    color: white;
+    opacity: .8;
+}
+
+.navbar .navbar-right .navbar-button {
+    color: #BA1B1D;
+}
+
+/* Hero */
+
+.hero {
+    color: white;
+    background-image: url('../assets/hero.jpeg');
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay {
+    background: black;
+    opacity: .4;
+}
+
+/* Menu */
+.menu .menu-item {
+    background: white;
+}
+
+#menu button {
+    background: #BA1B1D;
+    color: white; 
+}
+
+/* About */
+#about {
+    background: #BA1B1D;
+    color: white;
+}
+
+/* Footer */
+
+footer .social {
+background:#333;
+}
+
+.footer-nav, .copyright {
+    background: #222;
+}
+
+.copyright {
+    color: #bbb;
+}
+
+.footer-nav a, .footer-nav a:visited {
+    color: white;
+}
+
+/* Mobile */
+.navbar-bottom {
+    background: #333;
+}
+.navbar-bottom .navbar-links a {
+    color: white;
+}
+.navbar-bottom .navbar-links a:hover {
+    color: white;
+    opacity: .8;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap');
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+}
+
+button {
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+
+.container {
+    padding: 2em;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsiveness */
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .is-hidden-desktop {
+        display: none;
+   }
+}
+
+/* Tablet */
+@media screen and (max-width: 1023px) {
+    .is-hidden-tablet {
+        display: none;
+   }
+}
+
+/* Mobile */
+@media screen and (max-width: 699px) {
+    .container {
+        padding: 1em;
+   }
+
+    .is-hidden-mobile {
+        display: none;
+   }
+}
