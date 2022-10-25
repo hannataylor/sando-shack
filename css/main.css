@@ -186,6 +186,21 @@
     #menu .menu .menu-item .menu-description {
         text-align: center;
         padding: 0 1em;
+        min-height: 177px;
+    }
+
+    #menu .menu .menu-item p {
+        font-size: 1em;
+    }
+
+    #menu .menu .menu-item .item-name {
+        font-size: 1.5em;
+    }
+
+    #menu .menu-item-cta button {
+        font-size: 1.1em;
+        padding: 8px 16px;
+        margin: 0;
     }
 
     #hours address iframe {
@@ -222,8 +237,17 @@
         width: 90%;
     }
 
+    #menu .menu .menu-item p {
+        text-align: center;
+    }
+
     #menu .menu .menu-item .menu-description {
         align-items: center;
+    }
+
+    #menu .menu-item-cta {
+        justify-content: center;
+        margin-top: 1em;
     }
 
     #menu button {
