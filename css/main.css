@@ -20,6 +20,13 @@
     list-style: none;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: -80px;
+}
+
 /* Hero Section */
 .hero {
     height: 60vh;
@@ -168,6 +175,13 @@
 /* Responsive */
 /* Tablet */
 @media screen and (max-width: 1023px) {
+    a.anchor {
+        display: block;
+        position: relative;
+        visibility: hidden;
+        top: -177px;
+    }
+
     .hero .hero-content h1 {
         font-size: 3em;
     }
