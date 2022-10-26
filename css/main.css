@@ -48,6 +48,10 @@
     margin: 0;
 }
 
+.hero .hero-subtitle {
+    font-weight: 600;
+}
+
 .overlay {
     height: 60vh;
     width: 100vw;
