@@ -12,9 +12,11 @@ footer .social {
 }
 
 footer .copyright {
-    font-size: .9em;
+    font-size: .8em;
     text-transform: uppercase;
     width: 100%;
+    justify-content: space-between;
+    padding: 0px 24px;
 }
 
 .footer-nav {
